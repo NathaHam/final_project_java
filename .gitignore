@@ -42,3 +42,6 @@ desktop.ini
 
 ### Dossier perso ###
 Nathanael Hamandi/
+
+### Base de donnees locale ###
+*.db
