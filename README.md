@@ -1,3 +1,9 @@
+Commit #9 Adding screenshot to readme (No screen shot, because it's not a visual implementation)
+
+Commit #8 Adding ChessClient class :
+
+<img width="820" height="744" alt="image" src="https://github.com/user-attachments/assets/e061cd83-bc78-4a9f-a559-4e49fdccb892" />
+
 Commit #7 Adding screenshot to readme (No screen shot, because it's not a visual implementation)
 
 Commit #6 Adding ChessServer class :
