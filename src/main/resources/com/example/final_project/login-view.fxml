@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="500.0" style="-fx-background-color: #172C24;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_project.LoginController">
+   <children>
+      <StackPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" maxWidth="340.0" spacing="18.0">
+               <padding>
+                  <Insets bottom="30.0" left="35.0" right="35.0" top="30.0" />
+               </padding>
+               <children>
+                  <Label style="-fx-font-size: 30px; -fx-font-weight: bold; -fx-text-fill: F5E9CD;" text="JAVA CHESS" />
+                   <Label style="-fx-font-size: 12px; -fx-text-fill: #C6A45D;" text="WELCOME BACK, PLAYER" />
+                   <VBox spacing="8">
+                       <Label style="-fx-text-fill: white; -fx-font-size: 14px;" text="Username" />
+                       <TextField fx:id="txtUsername" prefHeight="42" promptText="Enter your username" style="-fx-background-radius: 6;" />
+                   </VBox>
+                   <Label fx:id="lblMessage" style="-fx-text-fill: #FF7777;" wrapText="true" />
+                   <Button maxWidth="Infinity" onAction="#login" prefHeight="42" style="-fx-background-color: #C6A45D; -fx-text-fill: #172C24; -fx-font-weight: bold; -fx-background-radius: 6;" text="LOGIN" />
+                   <Button maxWidth="Infinity" onAction="#register" prefHeight="42" style="-fx-background-color: transparent; -fx-border-color: #C6A45D; -fx-border-radius: 6; -fx-text-fill: white; -fx-font-weight: bold;" text="CREATE ACCOUNT" />
+
+               </children></VBox>
+         </children></StackPane>
+   </children>
+</AnchorPane>

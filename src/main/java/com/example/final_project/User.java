@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 public class User{
 
     private int id;
-    private int username;
+    private String username;
     private boolean connected;
     private LocalDateTime dateCreated;
 
@@ -14,7 +14,7 @@ public class User{
     private int losses;
     private int draws;
 
-    public User(int id, int username, boolean connected, LocalDateTime dateCreated) {
+    public User(int id, String username, boolean connected, LocalDateTime dateCreated) {
         this.id = id;
         this.username = username;
         this.connected = connected;
@@ -32,11 +32,11 @@ public class User{
         this.id = id;
     }
 
-    public int getUsername() {
+    public String getUsername() {
         return username;
     }
 
-    public void setUsername(int username) {
+    public void setUsername(String username) {
         this.username = username;
     }
 

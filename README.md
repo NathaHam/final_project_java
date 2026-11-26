@@ -1,3 +1,9 @@
+commit #10 Added users and game tables to data base and added gui and controllers for user login and user profiles
+
+<img width="1912" height="1071" alt="image" src="https://github.com/user-attachments/assets/44f2badb-9cb5-4b6c-8811-59ecc720d1c8" />
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/b1a8fe98-aa19-4426-8414-296a9af0ec70" />
+
 Commit #9 Adding screenshot to readme (No screen shot, because it's not a visual implementation)
 
 Commit #8 Adding ChessClient class :
